@@ -14,6 +14,7 @@ import { DisplayallComponent } from './displayall/displayall.component';
 const routes: Routes = [
   {path:'',component:LoginComponent},
   {path:'login',component:LoginComponent},
+  {path:'reg',component:RegistrationComponent},
   {path:'admin',component:AdmindashboardComponent,
   children:[
     {path:'home',component:HomeComponent},

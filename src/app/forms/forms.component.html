@@ -10,7 +10,7 @@
         <input type="file" (change)="onFileChange($event)"  class="form-control">
       </div>
    
-    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" id="pallavi">
       <div *ngFor="let row of jsonData; index as i">
         <div *ngIf="row.type === 'text'" class="form-group">
           <label class="form-label">{{i+1}}.{{ row.label }}</label>

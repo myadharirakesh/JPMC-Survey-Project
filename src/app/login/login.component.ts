@@ -47,5 +47,12 @@ export class LoginComponent {
       }
     })
   }
+
+  load()
+  {
+    this.router.navigateByUrl('/reg')
+  }
+
+
 }
 

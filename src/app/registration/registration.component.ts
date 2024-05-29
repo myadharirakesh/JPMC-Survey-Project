@@ -54,5 +54,11 @@ export class RegistrationComponent {
         this.router.navigateByUrl('/login');
       });
     }
+
+    load()
+    {
+      this.router.navigateByUrl('/login')
+    }
+  
   }
 
